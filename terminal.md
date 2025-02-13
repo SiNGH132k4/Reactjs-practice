@@ -1,32 +1,43 @@
-npm create vite@latest
-// To start react
+# To start react
+`npm create vite@latest`
 
-npm i
-// To install node modules
+### To install node modules
+`npm i`
 
-npm run dev
-// To run the web app
+### To run the web app
+`npm run dev`
 
 
-// Installing TailwindCSS in Vite (acc to new doc)
-// Firstly create a vite project and intall npm init by using "npm i"
+## Installing TailwindCSS in Vite (acc to new doc)
+ Firstly create a vite project and intall npm init by using "npm i"
 
-npm install tailwindcss @tailwindcss/vite
-// In target vite project
+### In target vite project
+`npm install tailwindcss @tailwindcss/vite`
 
-plugins: [react(), tailwindcss()],
-// In vite.config.js file put it like that
+***
 
-import tailwindcss from '@tailwindcss/vite'
-// Import tailwindCSS in "vite.config.js"
+### In vite.config.js file put it like that
+`plugins: [react(), tailwindcss()],`
 
-@import "tailwindcss";
-// Add it in "index.css" file which is inside "src" directory
+### Import tailwindCSS in "vite.config.js"
+`import tailwindcss from '@tailwindcss/vite`
 
-<link href="/src/index.css" rel="stylesheet">
-// Add it to "index.html"
+***
 
-npm run dev
-// acc to package.json
+### Add it in "index.css" file which is inside "src" directory
+`@import "tailwindcss";`
 
-// Note: if a tag which is not a closing tag like "img" put error close the tag to solve it - "<img />" or "/>" at end
+***
+
+### Add it to "index.html"
+`<link href="/src/index.css" rel="stylesheet">`
+
+***
+
+## Acc. to package.json
+`npm run dev`
+
+> Note: if a tag which is not a closing tag like "img" put error close the tag to solve it - "<img />" or "/>" at end
+
+Links
+[".md file layout"](https://youtu.be/bpdvNwvEeSE?si=jLJCT5MvYjCnSBt_)
