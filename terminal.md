@@ -20,7 +20,7 @@
 `plugins: [react(), tailwindcss()],`
 
 ### Import tailwindCSS in "vite.config.js"
-`import tailwindcss from '@tailwindcss/vite`
+`import tailwindcss from '@tailwindcss/vite'`
 
 ***
 
@@ -41,3 +41,8 @@
 
 Links
 [".md file layout"](https://youtu.be/bpdvNwvEeSE?si=jLJCT5MvYjCnSBt_)
+
+***
+
+## to install REACT ROUTER
+`npm install react-router-dom`
