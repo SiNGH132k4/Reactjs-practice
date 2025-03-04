@@ -1,0 +1,1 @@
+Redux Toolkit is used for wiring React and Redux together enabling thier communication.
