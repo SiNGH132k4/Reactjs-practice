@@ -1,3 +1,8 @@
+Links
+[".md file layout"](https://youtu.be/bpdvNwvEeSE?si=jLJCT5MvYjCnSBt_)
+
+***
+
 # To start react
 `npm create vite@latest`
 
@@ -39,10 +44,14 @@
 
 > Note: if a tag which is not a closing tag like "img" put error close the tag to solve it - "<img />" or "/>" at end
 
-Links
-[".md file layout"](https://youtu.be/bpdvNwvEeSE?si=jLJCT5MvYjCnSBt_)
 
 ***
 
 ## to install REACT ROUTER
 `npm install react-router-dom`
+
+***
+
+## to install Redux Toolkit
+`npm install @reduxjs/toolkit`  <br>
+`npm install react-redux`
